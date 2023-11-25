@@ -16,16 +16,22 @@
 </head>
 
 <body>
-    <div class="page">
-        <div class="header center">
+    <header class="center">
+        <div class="header__banner">
+            <img src="img/header_logo.png" alt="website logo" class="header__logo">
+            <div class="header__inscription">Плохая концовка и точка</div>
+        </div>
+        <nav class="header_navigation">
             <a href="index.html" class="header__link">Главная страница</a>
             <a href="ion.html" class="header__link">ИОН</a>
             <a href="ion_mnogoliky.html" class="header__link">ИОН: Многоликий</a>
             <a href="ion_zhoha.html" class="header__link">ИОН: Мгновения вечности</a>
             <a href="https://vk.com/blackravenficbook" class="header__link"><img src="img/vk_icon.png" alt="Паблик ВК"
                     class="header__img"></a>
-        </div>
-        <div class="top center">
+        </nav>
+    </header>
+    <main class="center">
+        <section class="top">
             <h1 class="title">История одного неудачника (ИОН)</h1>
             <div class="top__content">
                 <img src="img/ion_1_cover.jpg" alt="Обложка к первому ИОНу" class="top__image">
@@ -36,12 +42,13 @@
                     знакомит читателей с историей Семёна-неудачника, который попадает в пионерлагерь
                     «Совёнок» после того, как его сбивает автобус 410.</p>
             </div>
-        </div>
-        <div class="about center">
+        </section>
+        <section class="about">
             <h2 class="heading">История создания</h2>
             <p class="about__text">Пользовательская модификация была в разработке с весны 2018 года.
                 Официально мод был закончен 27 января 2020 года. В нем имеются 6 рутов.</p>
-            <p class="about__text">Руты сюжетно связаны друг с другом. Настоятельно рекомендуется проходить их именно в
+            <p class="about__text">Руты сюжетно связаны друг с другом. Настоятельно рекомендуется проходить их
+                именно в
                 таком порядке!</p>
             <ul>
                 <li class="about__text">Рут Виолы, 3 концовки</li>
@@ -51,12 +58,14 @@
                 <li class="about__text">Рут Мику, 2 концовки</li>
                 <li class="about__text">Рут одиночки, 1 концовка</li>
             </ul>
+        </section>
+        <section class="about">
             <h2 class="heading">Персонажи</h2>
             <p class="about__text">В пользовательской модификации «История одного неудачника» используется большинство
                 персонажей
                 из оригинальной визуальной новеллы: Ольга Дмитриевна, Виола, Славя, Алиса, Лена, Мику, Женя,
                 Шурик, Электроник и Пионер.</p>
-            <div class="about__text_and_picture">
+            <article class="about__text_and_picture">
                 <p class="about__text"><b>Толик</b> — персонаж, знакомый всем фанатам по оригинальной визуальной
                     новелле как
                     один из
@@ -74,8 +83,8 @@
                     обитателей лагеря закрывать глаза на его причудливые выходки. Имеет особое пристрастие к
                     сильным психотропным лекарствам.</p>
                 <img src="img/tlk.jpg" alt="Толик" class="about__img">
-            </div>
-            <div class="about__text_and_picture">
+            </article>
+            <article class="about__text_and_picture">
                 <img src="img/bz.jpg" alt="Юлий" class="about__img">
                 <p class="about__text"><b>Юлий</b> — мужская версия Юли, он же кошкобомж. Это пожилой бездомный,
                     которого
@@ -86,8 +95,8 @@
                     ему пойти с ним. Если герой соглашается, он попадает в мир лагеря «Совёнка», и там уже его
                     приключения продолжаются. Но это далеко не последняя встреча с загадочным стариком с кошачьими
                     ушами и хвостом.</p>
-            </div>
-            <div class="about__text_and_picture">
+            </article>
+            <article class="about__text_and_picture">
                 <p class="about__text"><b>Пеонур</b> — персонаж, являющийся одной из возможных будущих версий главного
                     героя.
                     Подробная история героя раскрывается в его собственном руте во втором моде от авторов ИОНа под
@@ -97,8 +106,8 @@
                     (кроме Толика, которого считает своим единственным другом), в особенности к девушкам,
                     относится негативно. Люто ненавидит Юлия. Отличается особой живучестью и упорством.</p>
                 <img src="img/peo.jpg" alt="Пеонур" class="about__img">
-            </div>
-            <div class="about__text_and_picture">
+            </article>
+            <article class="about__text_and_picture">
                 <img src="img/al.jpg" alt="Алконер" class="about__img">
                 <p class="about__text">Алконер — мужской персонаж, представляющий собой еще одну возможную версию
                     будущего Семёна. Как следует из прозвища, эта версия Семёна имеет слабость к непомерному
@@ -108,13 +117,17 @@
                     либо запинается и заикается, либо же речь его вообще становится нечленораздельной.
                     Несмотря на все свои отпугивающие черты, этот персонаж представляет скорее
                     положительную сторону. В определенной мере имеет тягу к вожатой.</p>
-            </div>
-            <h2 class="heading">Следующий мод серии</h2>
-            <p class="about__text">После прохождения данного произведения читателям рекомендуется пройти второй мод
-                трилогии
-                под названием <a href="ion_mnogoliky.html" class="link_in_text">ИОН: Многоликий</a>.</p>
-        </div>
-    </div>
+            </article>
+            <section class="about">
+                <h2 class="heading">Следующий мод серии</h2>
+                <article>
+                    <p class="about__text">После прохождения данного произведения читателям рекомендуется пройти второй
+                        мод
+                        трилогии
+                        под названием <a href="ion_mnogoliky.html" class="link_in_text">ИОН: Многоликий</a>.</p>
+                </article>
+            </section>
+    </main>
 </body>
 
 </html>
